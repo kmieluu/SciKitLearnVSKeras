@@ -17,6 +17,8 @@ The iris flower dataset is a well-studied problem and a such it is expected to a
 
 Scikit-learn is a Python package that is free to download and has use in machine learning. Featuring multiple algorithms, for example support vector machine, k-neighbours, random forests it also is useful while working in Python numerical and scientific libraries like NumPy and SciPy.
 
+KNeighborsClassifier implements learning which is based on the **k** nearest neighbors of each query point, where **k** is an integer value specified by the user
+
 ## Keras
 
 Keras is a deep learning library that was designed to enable fast experimentation. It uses Python as the primary language. It was built to allow for access to more complex machine learning tasks in a way of removing framework barriers. It is one of the leading high-level neural networks APIs that supports multiple back-end neural network computation engines. 
