@@ -8,13 +8,16 @@ There are common trends in algorithms. Machine learning is to find optimal solut
 
 Iris dataset is famous for being studied and provides a good problem in order to practice on neutral networks since all of the 4 input variables it contains are numeric and have the same scale presented in centimeters. 
 Each instance focus on describing the properties of an observed flower sizes and the output variable is specific iris flower species.
+It consists of the physical parameters of three kinds of flower — Versicolor, Setosa and Virginica. 
+
+The numeric parameters which the dataset contains are Sepal width, Sepal length, Petal width and Petal length.
 
 The Iris data set is a dataset that was originally created by R.A.Fisher. Published in 1936 paper called "The use of multiple measurments in taxonomic problems". 
 It contains of 3 types of Iris flowers with their multiple collection of 4 attributes: the length and the width of the sepals and petals.
 
 This dataset became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
 
-This is a multi-class classification problem which means there are more than two classes to be predicted. Contains. This is an important type of problem on which to practice with neural networks since the three class values require specialized handling.
+This is a multi-class classification problem which means there are more than two classes to be predicted. This is an important type of problem on which to practice with neural networks since the three class values require specialized handling.
 
 The iris flower dataset is a well-studied problem and a such it is expected to achieve a model accuracy in the range of 95% to 97%. This provides a good target to aim for when developing our models.
 
@@ -81,8 +84,10 @@ Other machine learning technique which can be used to improve this is called Nei
 
 # References
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set
-[2] https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html Sci Kit Learn
-[3] https://keras.io/ Keras
-[4] https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/TensorBoard
-[5] https://towardsdatascience.com/knn-using-scikit-learn-c6bed765be75
+[2] https://www.kaggle.com/sixteenpython/machine-learning-with-iris-dataset
+[3] https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html Sci Kit Learn
+[4] https://keras.io/ Keras
+[5] https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/TensorBoard
+[6] https://towardsdatascience.com/knn-using-scikit-learn-c6bed765be75
+
 
