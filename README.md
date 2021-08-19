@@ -1,3 +1,9 @@
+## Machine Learning, Repeat Assessment, Autumn 2021
+
+'''
+
+There are common trends in algorithms. Machine learning is to find optimal solution to set of equation. According to studies 90% of people use Python for Machine Learning. 
+
 ## Iris dataset
 
 Iris dataset is famous for being studied and provides a good problem in order to practice on neutral networks since all of the 4 input variables it contains are numeric and have the same scale presented in centimeters. 
@@ -15,7 +21,13 @@ The iris flower dataset is a well-studied problem and a such it is expected to a
 
 ## Sci Kit Learn
 
-Scikit-learn is a Python package that is free to download and has use in machine learning. Featuring multiple algorithms, for example support vector machine, k-neighbours, random forests it also is useful while working in Python numerical and scientific libraries like NumPy and SciPy.
+Scikit-learn is a Python package that is free to download and has use in machine learning. It contains lots of common ideas and concepts in machine learning.
+Areas it fucuses on are: study of regression, classification, clustering, model selection, preprocessing, dimensionality reduction and more. 
+
+K-means
+sklearn.cluster
+kmeans = KMeans(n_clusters=2, random_state=0,fit(x)
+
 
 KNeighborsClassifier implements learning which is based on the **k** nearest neighbors of each query point, where **k** is an integer value specified by the user
 
@@ -24,7 +36,8 @@ KNeighborsClassifier implements learning which is based on the **k** nearest nei
 Keras is a deep learning library that was designed to enable fast experimentation. It uses Python as the primary language. It was built to allow for access to more complex machine learning tasks in a way of removing framework barriers. It is one of the leading high-level neural networks APIs that supports multiple back-end neural network computation engines. 
 
 
-You can download the iris flowers dataset from the UCI Machine Learning repository and place it in your current working directory with the filename “iris.csv“.
+Keras is useful if you want to create a neural network which can predict the median sepal lenght and width based on the other variables in the dataset.
+
 
 
 # SciKitLearn VS Keras
@@ -39,9 +52,26 @@ This dataset became a typical test case for many statistical classification tech
 
 For more background about Iris data set please visit my repository https://github.com/kmieluu/Fishers_Iris_DataSet_Programming-Scripting_2019 created in 2019.
 
-# k-nearest-neighbour classifier 
-An explanation and code for the iris species based on the dataset using scikit-learn.
+# k-nearest-neighbour classifier (kNN)
+k-Nearest-Neighbours (kNN)
 
+kNN is a machine learning algorithm which is used for either regression or classification modeling, but in general is recommended for classification models. k-NN classification is used if the output is a member of a particular class. k-NN regression is used in cases when the output is a property value for the object.
+
+The classification algorithm implementation is easy and is non-parametric which means it does not make assumptions of the data structure. 
+Instead estimates are made guessing which classification a data point should be assigned. That is based on the known classification of a number of data points in proximity to the queried data point. The K number of adjacent data points which are included in the classification assignment process could vary as required. That depends on the dataset and can have a significant impact on how the assignments are approached by the algorithm. It is considered a "lazy" learning technique because it uses all of the training data  available while assessing a new data point.
+
+Mentioned algorithm facilitates the separation of a dataset into training and testing datasets. This means that supervised classification of data could be undertaken to test the accuracy of the model that is being trained.
+
+kNN performs better when there is a lower number of dimensional variables. Those machine learning algorithms can converge on a result faster and would not be over influenced by a single input variable with a wide range when the input parameter values are scaled in order to normalise the data values to between 0 and 1.
+
+Standard kNN classifier manages euclidean distances to define their nearest neighbours. Although it can be poor at making decision at boundary conditions where classification could go one way or the other, it is still very popular. 
+Other machine learning technique which can be used to improve this is called Neighborhood Components Analysis (NCA). This method applies weighs to the nearest neighbours to achieve a more optimised classification result.
+
+##Steps and challenges for reviewing k means and kNN clustering of the Iris data set
+
+* Import dataset. .
+* Describe for each species group in the dataset basic parameter statistics .
+* Display a visual comparisons of the dataset. Based on the visual the comparison of petal_length versus petal_width appear to give a good indication of the species cluster group definition.
 
 
 
