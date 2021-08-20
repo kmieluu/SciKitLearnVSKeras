@@ -27,16 +27,16 @@ The iris flower dataset is a well-studied problem and a such it is expected to a
 Scikit-learn is a Python package that is free to download and has use in machine learning. It contains lots of common ideas and concepts in machine learning.
 Areas it fucuses on are: study of regression, classification, clustering, model selection, preprocessing, dimensionality reduction and more. 
 
-K-means
-sklearn.cluster
-kmeans = KMeans(n_clusters=2, random_state=0,fit(x)
+Regression works with numpy (fundamental numeric package) and matplotlib (for visulise things). With regression we receive points on graph and try recreate best fitting line between them. It does not have to be a straight line, can be parabolic or sinusoidic. Problematic could be when you have more then 2 variables. 
+Output of regression is to come up with some prediction when it comes to outputs of tests
+
 
 
 KNeighborsClassifier implements learning which is based on the **k** nearest neighbors of each query point, where **k** is an integer value specified by the user
 
 ## Keras
 
-Keras is a deep learning library that was designed to enable fast experimentation. It uses Python as the primary language. It was built to allow for access to more complex machine learning tasks in a way of removing framework barriers. It is one of the leading high-level neural networks APIs that supports multiple back-end neural network computation engines. 
+Keras is a deep learning naural library that was designed to enable fast experimentation, it works with neural networks. It uses Python as the primary language. It was built to allow for access to more complex machine learning tasks in a way of removing framework barriers. It is one of the leading high-level neural networks APIs that supports multiple back-end neural network computation engines. 
 
 
 Keras is useful if you want to create a neural network which can predict the median sepal lenght and width based on the other variables in the dataset.
